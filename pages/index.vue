@@ -1,6 +1,7 @@
 <script setup>
-const { sayHello } = useUtils()
-sayHello()
+// const { sayHello } = useUtils()
+const { $sayHello } = useNuxtApp()
+$sayHello('Nuxt App!')
 </script>
 <template>
     <main>
@@ -11,6 +12,4 @@ sayHello()
 
 
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
