@@ -4,11 +4,12 @@ definePageMeta({
 })
 // const { sayHello } = useUtils()
 // const { $sayHello } = useNuxtApp()
+
 </script>
 <template>
     <main>
         <h1>Landing page</h1>
-        <IconsBell />
+        <ContentDoc />
     </main>
 </template>
 

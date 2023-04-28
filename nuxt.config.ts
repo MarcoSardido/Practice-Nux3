@@ -5,6 +5,7 @@ export default defineNuxtConfig({
         // '@': resolve(__dirname, '/')
         assets: '/<rootDir>/assets'
     },
+    modules: ['@nuxt/content'],
     css: ['~/assets/main.scss'],
     postcss: {
         plugins: {

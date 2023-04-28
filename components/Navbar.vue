@@ -3,6 +3,7 @@
 </script>
 <template>
     <header>
+        <h1>Navbar</h1>
         <ul>
             <li>
                 <NuxtLink to="/">Home</NuxtLink>
