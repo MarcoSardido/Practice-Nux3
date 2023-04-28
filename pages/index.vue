@@ -1,7 +1,9 @@
 <script setup>
+definePageMeta({
+    middleware: 'auth'
+})
 // const { sayHello } = useUtils()
-const { $sayHello } = useNuxtApp()
-$sayHello('Nuxt App!')
+// const { $sayHello } = useNuxtApp()
 </script>
 <template>
     <main>
