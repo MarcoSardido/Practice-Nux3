@@ -3,11 +3,8 @@
 </script>
 <template>
     <main>
-        Landing Page
-        <!-- <Profile /> -->
-
-        <!-- Calling Profile > User: Avatar component in top level -->
-        <!-- <ProfileUserAvatar /> -->
+        <h1>Landing page</h1>
+        <IconsBell />
     </main>
 </template>
 
