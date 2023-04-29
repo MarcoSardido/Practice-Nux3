@@ -5,7 +5,14 @@ export default defineNuxtConfig({
         // '@': resolve(__dirname, '/')
         assets: '/<rootDir>/assets'
     },
-    modules: ['@nuxt/content'],
+    modules: ['@nuxt/content', '@pinia/nuxt',],
+    pinia: {
+        autoImports: [
+            // automatically imports `defineStore`
+            'defineStore', // import { defineStore } from 'pinia'
+            ['defineStore', 'definePiniaStore'], // import { defineStore as definePiniaStore } from 'pinia'
+        ],
+    },
     css: ['~/assets/main.scss'],
     postcss: {
         plugins: {
