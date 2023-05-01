@@ -12,6 +12,9 @@ export default defineNuxtConfig({
             ]
         }
     },
+    // hooks: {
+    //     ready: (ctx) => console.log(ctx) // ctx is short word for context
+    // },
     alias: {
         // '@': resolve(__dirname, '/')
         assets: '/<rootDir>/assets'
